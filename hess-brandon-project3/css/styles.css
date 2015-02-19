@@ -1,15 +1,11 @@
 /* body start */
 
 #main {
-/* 
-	text-align: center;
- */
 	width: 72%;
 	height: 72%;
 	margin: 5% auto;
 	padding: 1% 0% 1%;
-	background-image: url(../images/tile.jpg);
-	background-repeat: no-repeat;
+	background-color: hsla(31, 50%, 12%, 0.64);
 	background-size: 100% 100%;
 	background-position: top;
 }
@@ -17,7 +13,7 @@
 body {
 	color: rgb(255, 255, 255);
 	/* background-color: grey; */
-	background-image: url(../images/charcoal.gif);
+	background-image: url(../images/gun.gif);
 	font-family: lobster;
 	font-size: 20px;
 	font-style: oblique;
@@ -34,13 +30,9 @@ h1, h2, h3 {
 	box-shadow: 3px 3px #000;
 	border: 100px;
 	border-radius: 20px;
-	background-color: rgba(61, 32, 0, 1);
+	background-image: url(../images/simple.gif);
+	background-repeat: repeat;
 	overflow: hidden;
-
-	/* 
-font-family: myFirstFont;
-    src: url(sansation_light.woff);
- */
 }
 
 nav, p {
@@ -70,14 +62,11 @@ ul {
 
 
 #fig1 {
-	background-color: rgba(61, 32, 0, 0.64);
+	background-color: rgba(31, 31, 31, 0.64);
 	padding: 5px;	
 	box-shadow: 5px 5px #000;
 	width: 70%;
 	margin: 4% auto;
-/* 
-	margin: 16px 10px;
- */
 	text-align: center;
 	
 }
@@ -88,49 +77,40 @@ ul {
 
 
 #fig2, #fig3, #fig3, #fig4, #fig5 {
-	background-color: rgba(61, 32, 0, 0.64);
+	background-color: rgba(31, 31, 31, 0.64);
 	padding: 5px;	
 	box-shadow: 5px 5px #000;
 	width: 40%;
 	margin: 1%;
-
-/* 
-	margin: 16px 10px;
- */
 	float: left;
 	clear: right;
 }
 
-a:active {
-	background-color: #fff;
-}
-
 a:link {
+	color: #fff;
 	text-decoration: none;
 }
 
 a:visited {
-  color: #df9eff;
+  color: #b3b3b3;
   text-decoration: none;
 }
 
 a:hover, a:focus {
+	color: #f70;
   text-decoration: underline;
 }
 
-#contact, #TP {
-	color: #FFFFFF;
-	
+a:active {
+	color: #f00;
 }
-
-/* body end */
 
 footer {
     padding: 20px 400px;
-	color: rgb(255, 255, 255);
 	text-shadow: 4px 4px #000000;
 	box-shadow: 3px 3px #000;
-	background-color: rgba(61, 32, 0, 1);
+	background-image: url(../images/simple.gif);
+	background-repeat: repeat;
 	border-radius: 20px;
 	overflow: hidden;
 	text-align: center;
@@ -140,16 +120,4 @@ footer {
 
 }
 
-/* 
-footer  {
-	padding: 20px;
-	color: rgb(255, 255, 255);
-	background-color: rgba(110, 110, 110, 0.89);
-	border-radius: 20px;
-	overflow: hidden;
-}
-
-
-
-
- */
+/* body end */
